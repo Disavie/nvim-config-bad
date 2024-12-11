@@ -1,11 +1,12 @@
 --shitty remaps that i wrote for myself and didnt steal
 --
 --
+--
 
 vim.keymap.set("n",",",":tabprevious<CR>")
 vim.keymap.set("n",".",":tabnext<CR>")
 
-
+vim.keymap.set("t","<C-c>","<C-\\><C-n>")
 --
 --
 vim.g.mapleader = " "
